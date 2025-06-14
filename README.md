@@ -15,3 +15,4 @@
 <br>
 FreeTube-0.23.5 beta with MY "Upload subtitles from file" with settings. -SOON
 ## v3
+![v3](images/v3.jpg)
