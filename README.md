@@ -10,4 +10,8 @@
 <br>
 ## Settings:
 ![settings.png](images/settings.png)
-
+<br>
+<br>
+<br>
+FreeTube-0.23.5 beta with MY "Upload subtitles from file" with settings. -SOON
+## v3
