@@ -5,3 +5,9 @@
 (en, pl)
 
 ![freetube-marek7400.jpg](images/freetube-marek7400.jpg)
+<br>
+<br>
+<br>
+## Settings:
+![settings.png](images/settings.png)
+
