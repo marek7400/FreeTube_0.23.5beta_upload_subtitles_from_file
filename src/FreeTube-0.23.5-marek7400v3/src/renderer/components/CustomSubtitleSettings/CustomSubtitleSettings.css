@@ -1,0 +1,76 @@
+.mode-selector {
+  text-align: center;
+  padding-block: 5px;
+  margin-block-end: 10px;
+  font-size: 0.9em;
+}
+.mode-selector label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem; /* Zmniejszony odstęp */
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 0 10px 10px 10px; /* Dodane paddingi */
+}
+
+.control-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control-group label {
+  white-space: nowrap;
+  margin-right: 10px;
+  font-size: 0.9em; /* Zmniejszona czcionka */
+}
+
+.control-group input[type="color"] {
+  width: 40px; /* Zmniejszona szerokość */
+  height: 25px; /* Zmniejszona wysokość */
+  border: 1px solid var(--tertiary-text-color);
+  border-radius: 4px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+/* Dostosowanie dla ft-input i ft-slider w siatce */
+.control-group .ft-input-component,
+.control-group .pure-material-slider {
+  max-width: 150px; /* Zmniejszona szerokość */
+  margin-block: 0; /* Usunięty margines */
+}
+
+/* Zmniejszenie slidera */
+.control-group .pure-material-slider {
+  padding: 0;
+  font-size: 14px;
+}
+
+/* NOWE STYLE */
+.combined-control .slider-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.combined-control .pure-material-slider {
+  flex-grow: 1; /* Suwak zajmuje dostępną przestrzeń */
+  max-width: none; /* Usuwamy ograniczenie, aby flex-grow działało */
+}
+
+.combined-control .v-pos-input {
+  width: 70px; /* Stała szerokość dla pola numerycznego */
+  flex-shrink: 0; /* Zapobiega zmniejszaniu się pola */
+}
+
+.combined-control .v-pos-input .ft-input {
+  padding: 0.5rem; /* Mniejszy padding dla kompaktowego wyglądu */
+  height: auto; /* Dopasowanie wysokości do zawartości */
+}

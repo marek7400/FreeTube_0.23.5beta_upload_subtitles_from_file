@@ -1,0 +1,45 @@
+.floating-window-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200; /* Poniżej modala, ale nad resztą UI */
+  pointer-events: none; /* Pozwala na klikanie przez overlay */
+}
+
+.floating-window {
+  position: absolute;
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--primary-shadow-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 720px; /* ZMIENIONA SZEROKOŚĆ */
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  pointer-events: all; /* Włącza eventy dla okna */
+}
+
+.window-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--secondary-card-bg-color);
+  cursor: move;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid var(--primary-shadow-color);
+}
+
+.window-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.window-content {
+  overflow-y: auto;
+  padding: 10px;
+}
