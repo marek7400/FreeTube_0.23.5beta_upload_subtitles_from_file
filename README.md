@@ -2,6 +2,8 @@
 
 ## This is fork FreeTube-0.23.5 beta with MY Progress Bar
 
+02.09.2025 Stop working (Youtube changed the algorithm again)!!!
+
 (en, pl)
 
 ![freetube-marek7400.jpg](images/freetube-marek7400.jpg)
